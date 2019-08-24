@@ -26,7 +26,9 @@ class StoreData {
 
   void removeFoodDetails(String foodName)
   {
+    print("Remove food");
     _foodNamePrice.remove(foodName);
+    print(_foodNamePrice);
   }
 
   Map<String, int> retrieveFoodDetails()

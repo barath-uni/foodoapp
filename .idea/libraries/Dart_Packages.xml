@@ -16,6 +16,13 @@
             </list>
           </value>
         </entry>
+        <entry key="bloc">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-0.15.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="boolean_selector">
           <value>
             <list>
@@ -44,10 +51,24 @@
             </list>
           </value>
         </entry>
+        <entry key="equatable">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-0.2.6/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter">
           <value>
             <list>
               <option value="$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/packages/flutter/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="flutter_bloc">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-0.21.0/lib" />
             </list>
           </value>
         </entry>
@@ -86,10 +107,24 @@
             </list>
           </value>
         </entry>
+        <entry key="provider">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/provider-3.1.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="quiver">
           <value>
             <list>
               <option value="$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.0.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="rxdart">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.22.1+1/lib" />
             </list>
           </value>
         </entry>
@@ -161,15 +196,20 @@
     <CLASSES>
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.1.0/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/badges-1.1.0/lib" />
+      <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-0.15.0/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.4/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.2/lib" />
+      <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-0.2.6/lib" />
+      <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-0.21.0/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.5/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.6/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.6.2/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.5.0/lib" />
+      <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/provider-3.1.0/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.0.2/lib" />
+      <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.22.1+1/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.5.5/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.3/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter_linux_v1.5.4-hotfix.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.0.0/lib" />
