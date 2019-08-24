@@ -1,0 +1,4 @@
+#Sat Aug 24 11:24:30 IST 2019
+base.0=/home/baradwaj/AndroidStudioProjects/flutter_food_app/foodoapp/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
