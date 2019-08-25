@@ -7,6 +7,17 @@ abstract class HomeblocEvent extends Equatable{
   HomeblocEvent([List props = const []]) : super(props);
 }
 
+class HomeBlocLoadEvent extends HomeblocEvent{
+
+  HomeBlocLoadEvent([List props = const[]]) : super(props);
+
+  @override
+  String toString() {
+    // TODO: implement toString
+    return 'HomeBlocLoadEvent';
+  }
+}
+
 class HomeBlocAddEvent extends HomeblocEvent {
 
   final FoodModel food;

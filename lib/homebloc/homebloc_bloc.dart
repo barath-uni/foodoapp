@@ -42,7 +42,7 @@ class HomeblocBloc extends Bloc<HomeblocEvent, HomeblocState> {
   Stream<HomeblocState> _mapAddEventToAddState(event)
   async*{
     yield HomeBlocStateLoading();
-
+    print("Add Event");
     //    Logic to save the food
     _storeData.storeFoodDetails(event.food.name, event.food.price);
 

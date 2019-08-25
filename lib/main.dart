@@ -45,13 +45,26 @@ class FoodMainWidgetStateless extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(0, 15, 15, 0),
 
               child: BlocBuilder<HomeblocBloc, HomeblocState>(
-                builder: (context, state)
+                  condition: (previousState, currentState){
+                    if(previousState == currentState)
+                      {
+                        print(previousState);
+                        print(currentState);
+                        return false;
+                      }
+                    print(previousState);
+                    print(currentState);
+                    return true;
+                  },
+                  builder: (context, state)
                 {
                   if(state is HomeBlocAdded)
                     {
+                      print(state);
                       ++total;
+                      print(total);
                     }
-                  else{
+                  else if (state is HomeBlocRemoved){
                     --total;
                     if(total<0)
                       {
@@ -63,6 +76,7 @@ class FoodMainWidgetStateless extends StatelessWidget {
                   toAnimate: true,
                 child: IconButton(icon: Icon(Icons.shopping_cart),
                 onPressed: (){
+                  homeblocBloc.dispatch(HomeBlocLoadEvent());
                 Navigator.push(
                 context,
                 MaterialPageRoute(builder:(context) => CheckoutWidget())
